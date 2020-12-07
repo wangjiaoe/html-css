@@ -1,0 +1,169 @@
+.image {
+  width: 24px;
+  height: 70.4px;
+  background-image: url(images/icon-side.png);
+  display: block;
+}
+.a {
+  background-position-y: -70px;
+  float: bottom;
+}
+.b {
+  background-position-y: -140px;
+  float: bottom;
+}
+.c {
+  background-position-y: -210px;
+  float: bottom;
+}
+.d {
+  /* background-position-y: -280px; */
+  float: bottom;
+  background-image: url(images/icon-train-ticket（1）.png);
+  width: 28px;
+  height: 19px;
+  top: 30px;
+  /* position: absolute; */
+  right: 50%;
+  margin-right: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.e {
+  background-position-y: -280px;
+  float: bottom;
+}
+.f {
+  background-position-y: -350px;
+  float: bottom;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.ul .li {
+  list-style: none;
+}
+.site-side-navigationul .li .a .span {
+  width: 100%;
+  display: block;
+  position: absolute;
+  background-position-x: 0px;
+  padding-top: 40px;
+  line-height: 1.2em;
+  /* text-decoration-line: underline; */
+}
+.site-side-navigation ul li a {
+  display: block;
+  height: 80px;
+  color: #33322f;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.52, 0.48, 0.15, 0.97);
+}
+.site-side-navigation {
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 1px 0px 2px 0px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  height: 100%;
+  position: absolute;
+}
+.div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+.site-side-navigation .ul .li.ticket .a .span {
+  bottom: 5px;
+}
+.site-side-navigation ul li a {
+  padding-top: 45px;
+}
+.site-side-navigation .ul .li.estate .span {
+  bottom: 6px;
+}
+.site-header-navigation--ja {
+  background-color: #fff;
+  color: #fff;
+}
+.site-header-navigation {
+  display: none;
+}
+.site-header-navigation ul {
+  text-align: right;
+  font-size: 0;
+}
+.site-header-navigation--ja ul li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.site-header-navigation--ja ul li a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.site-header-navigation--ja .lang {
+  width: 150px;
+  margin-left: 30px;
+  margin-right: 0;
+  padding-left: 0;
+  position: relative;
+}
+.site-header-navigation--ja .lang > a {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #666666;
+  color: #fff;
+}
+.site-header-navigation--ja .lang > a span {
+  display: block;
+  line-height: 30px;
+  padding-left: 30px;
+  padding-right: 15px;
+  background: url(images/icon-menu-language.png) no-repeat 0 50%;
+  background-size: auto 20px;
+}
+.site-header-navigation--ja .lang ul {
+  width: 150px;
+  background-color: #666;
+  right: 0;
+}
+.site-header-navigation .lang ul {
+  width: 100px;
+  z-index: 10;
+  position: absolute;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.52, 0.48, 0.15, 0.97);
+}
+.site-header-navigation ul li.search {
+  height: 0;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.html .body .div .span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
